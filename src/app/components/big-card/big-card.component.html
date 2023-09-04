@@ -1,7 +1,7 @@
 <div class="big_card_container">
 
  <div class="big_card_photo">
-  <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" alt="" height="350px" >
+  <img src="{{photoCover}}" alt="" height="250px" >
  </div>
 
 
@@ -11,7 +11,7 @@
 
     
 
-    <h1><a href="#"> lasosalaso angular cli asasasassacccaca</a></h1>
+    <h1><a [routerLink]="['content',Id]"> {{cardTitle}}</a></h1>
 
  </div>
 
@@ -19,10 +19,9 @@
  <div class="big_card_description"> 
 
     <p>
-        <a href="#">     
+        <a [routerLink]="['content',Id]">     
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit venenatis aliquam. Fusce eget urna ex. Donec sodales lacus vel ante cursus vehicula. Vivamus mattis eu metus ac consequat. Cras eu urna dolor. Sed et volutpat ipsum. Nulla erat erat, porttitor eu libero non, dignissim volutpat lorem. In malesuada in dolor quis cursus. 
-        Quisque nec posuere sapien. Donec sit amet metus mollis, laoreet metus nec, dictum lectus. Proin sit amet consectetur neque.
+        {{cardDescription}}
     </a> 
     </p>
 
