@@ -37,7 +37,7 @@ export const dataFake = [
   
    "title": "Coragem, o Cão Covarde, clássico do Cartoon Network, pode ganhar uma nova série. Segundo John R. Dilworth, criador da animação, o novo programa se passaria antes do original e seria uma “prequel”.",
    "description":"",
-   "photoCover":"https://imgsapp2.correiobraziliense.com.br/app/noticia_127983242361/2018/10/26/715051/20181025164646706457u.jpg"
+   "photoCover":"https://worldfive.com.br/wp-content/uploads/2022/12/capa-coragem.png"
 }
 
 
